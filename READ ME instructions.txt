@@ -1,0 +1,19 @@
+Task 1
+Please input 3 arguments in floating point format that represent sides of the triangle you want to calculate area for.
+Task 2
+Please input 2 arguments in floating point format (order: a0, q) and 1 integer argument (n).
+Task 3
+Please input 1 argument in integer format that represents the size of the multiplication table.
+Task 4
+Please input 1 string argument - the word that you want to count vowels in.
+Task 5
+Please input 4 arguments in floating point format. The order is a1, b1, a2, b2 where a is the slope variable and b is the offset.
+Task 6&7
+Please input 1 string argument directing to the file you want to read.
+Program accepts both full file path or just file name if the file is present in the same folder as the executable.
+Then follow instructions on the console.
+Task 8
+Please input 1 string argument directing to the file you want to read and 1 integer argument representing the mode you want to start.
+1 - read mode
+2 - append mode
+Then follow instructions on the console.
