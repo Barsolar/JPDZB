@@ -1,0 +1,10 @@
+Warszawa	3;
+Łódź	2;
+Wrocław	12;
+Kraków	5;
+Białystok	-1;
+Gdańsk	0;
+Rzeszów	2;
+Zielona Góra	7;
+Gdynia	0;
+Opole	10;
