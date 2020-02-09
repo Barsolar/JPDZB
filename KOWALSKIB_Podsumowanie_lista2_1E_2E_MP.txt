@@ -1,0 +1,9 @@
+KOWALSKI Bartosz  - MP
+
+Lista 1: 5.0
+Lista 2: 4.0
+
+KOMENTARZE
+1. Lista 2-1, zadanie 5: Funkcjonalność tworzenia listy plików do odczytu sensowniej byłoby wydzielić z funkcji load_files() i przekazać tę listę jako argument.
+2. Lista 2-2, zadanie 1: Stosowanie obiektu Pipe ma sens raczej wtedy, kiedy chodzi o przekazywanie jakiegoś rodzaju informacji pomiędzy procesami; w przypadku sygnalizowania stanu procesu raczej należałoby zastosować zdarzenia (tj. zasygnalizować zakończenie wykonywania pierwszej funkcji przez zdarzenie) - aktualne rozwiązanie wymaga dodatkowej logiki przekazywania komunikatów.
+3. Lista 2-2, zadanie 3: Oczekiwanie w funkcji counter(), aż kolejka będzie pusta, jest błędem (i trochę zaprzecza idei kolejki jako takiej) - jeżeli w głównym procesie nie zdąży nastąpić odczytanie wartości, to program się zakleszczy; zamiast tego dopisywanie wartości do kolejki powinno następować bez czekania na odczyt wartości. Oprócz tego brakuje sygnalizacji końca operacji generowania wyników - po wykonaniu założonej liczby odczytów program będzie dalej czekał.

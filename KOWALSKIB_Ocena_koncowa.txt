@@ -1,0 +1,14 @@
+KOWALSKI Bartosz - Python + MP
+
+Python
+	Lista 1-1A:		4.5
+	Lista 1-2A:		3.0
+	Sprawdzian 1:	5.0	
+MP:
+	Lista 2-1A:		5.0
+	Lista 2-2A:		4.0
+	Sprawdzian 2:	5.0	
+	
+Ocena końcowa:	4.5
+
+AK: W przypadku uwag do oceny (np. wątpliwości co do oceny ze sprawdzianu lub uwzględnienia poprawek do której z list) proszę o informację mailową. Podsumowania brakujących list lub sprawdzianu wrzucałam tylko wtedy, jeżeli były w nich jakieś istotne uwagi.
